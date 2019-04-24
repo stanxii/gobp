@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package downvideo;
+
+service DownVideo {
+    rpc DownloadVideo(DVRequest) returns (DVReply) {}
+}
+
+message DVRequest {
+    string name = 1;
+}
+
+message DVReply {
+    string message = 1;
+}
