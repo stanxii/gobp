@@ -1,0 +1,2 @@
+# gobp
+golang best pratics
